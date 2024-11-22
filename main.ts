@@ -1002,7 +1002,7 @@ namespace mbit_小车类 {
             }
 
             case enPos.RightState: {
-                if (pins.analogReadPin(AnalogPin.P1) < 200) {
+                if (pins.analogReadPin(AnalogPin.P1) < 300) {
                     if (value == enLineState.White) {
                         temp = true;
                     }
